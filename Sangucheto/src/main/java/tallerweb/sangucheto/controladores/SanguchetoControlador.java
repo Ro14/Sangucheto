@@ -18,12 +18,12 @@ import tallerweb.sangucheto.modelo.Sangucheto;
 
 public class SanguchetoControlador {
 	
-	@RequestMapping("armarSangucheto")
-	public ModelAndView armarSangucheto(){
+	@RequestMapping("crearSangucheto")
+	public ModelAndView crearSangucheto(){
 		ModelMap model=new ModelMap();
 		Sangucheto miSangucheto = Sangucheto.getInstance();
 		model.put("miSangucheto", miSangucheto);
-		return new ModelAndView("armarSangucheto",model);
+		return new ModelAndView("crearSangucheto",model);
 		
 	}
 	
