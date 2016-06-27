@@ -1,7 +1,12 @@
 Enunciado tp final
-1.	una pantalla para que compre un sangucheto y lo arme a su gusto, la misma permite agregar ingredientes y condimentos por separado (que se descuentan del stock), y va mostrando el precio del sangucheto a medida que se agregan cosas al mismo. Esta pantalla tiene dos botones: cancelar, que elimina todo lo agregado al sanguchetto; y confirmar que lleva a una pantalla donde se muestra como queda el sanguchetto (Ingredientes y condimentos por separado) y su precio final
+1.	una pantalla para que compre un sangucheto y lo arme a su gusto, la misma permite agregar ingredientes y 
+condimentos por separado (que se descuentan del stock), y va mostrando el precio del sangucheto a medida que 
+se agregan cosas al mismo. Esta pantalla tiene dos botones: cancelar, que elimina todo lo agregado al sanguchetto; 
+y confirmar que lleva a una pantalla donde se muestra como queda el sanguchetto 
+(Ingredientes y condimentos por separado) y su precio final
 2.	una pantalla que muestre el stock de todos los ingredientes existentes
 3.	Una pantalla para dar de alta un ingrediente
-4.	Una pantalla para agregar stock a determinado ingrediente, es decir se suma a lo que tiene (se puede pedir que sea con form y post esto)
+4.	Una pantalla para agregar stock a determinado ingrediente, es decir se suma a lo que tiene 
+(se puede pedir que sea con form y post esto)
 5.	Una pantalla para eliminar el stock de un ingrediente.
 6.	Implementar los test cases de la clase Sanguchetto, se provee la clase con metodos sin implementar

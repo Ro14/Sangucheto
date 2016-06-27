@@ -18,7 +18,7 @@
       <div class="container">
 
         <div class="starter-template">
-          <br></br><br></br><br></br>
+          <br></br>
           <h1>Bienvenido a Sangucheto</h1>
           <p class="lead">Arma el sangucheto que m&aacutes te guste, agregando los condimentos e ingredientes que m&aacutes prefieras.</p>
         	 <p class="lead">Para empezar, tenes que agregar los ingredientes que desees en Nuevo Ingrediente, colocando el nombre, precio y tipo ta sea condimento o ingrediente</p>

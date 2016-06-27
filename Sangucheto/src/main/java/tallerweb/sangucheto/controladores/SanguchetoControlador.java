@@ -27,14 +27,25 @@ public class SanguchetoControlador {
 		
 	}
 	
-	//@RequestMapping(value="/confirmacion", method = RequestMethod.POST)
-	//public ModelAndView agregarIngredientes(@ModelAttribute("ingredientes") Ingrediente ingredientes){
-	//		ModelMap model= new ModelMap();
-	//		model.addAttribute("nombre",persona.getNombre());
-	//		model.addAttribute("apellido", persona.getApellido());
-	//		model.addAttribute("mail", persona.getEmail());	
-	//		return new ModelAndView("confirmacion",model);
-	//}
+	
+	@RequestMapping("agregarIngrediente")
+	public ModelAndView agregarIngrediente(){
+		ModelMap model=new ModelMap();
+		Ingrediente miIngrediente = new Ingrediente();
+		model.put("miIngrediente", miIngrediente);
+		return new ModelAndView("agregarIngrediente",model);
+		
+	}
+	
+	@RequestMapping(value="confirmacionIngrediente", method = RequestMethod.POST)
+	public ModelAndView agregarIngrediente(@ModelAttribute("ingrediente") Ingrediente ingrediente){
+			ModelMap model= new ModelMap();
+			model.addAttribute("nombre",ingrediente.getNombre());
+			model.addAttribute("precio",ingrediente.getPrecio());
+			model.addAttribute("tipo",ingrediente.getTipo());
+			model.addAttribute("ingrediente")
+			return new ModelAndView("confirmacionIngrediente",model);
+	}
 	
 	
 	
